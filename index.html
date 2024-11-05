@@ -6,8 +6,15 @@
 
 	<title>Tata Education 塔塔教育</title>
 
-	<meta name="description" content="Tata Education 塔塔教育有限公司">
+	<meta name="description"
+		content="Professional higher education consulting services for Commonwealth countries and North America. Specialized in Associate, Bachelor's, Master's and Doctoral programs application consulting. | 专业留学咨询服务，提供英联邦及北美高等教育申请咨询，涵盖副学士、学士、硕士及博士课程。">
 	<meta name="author" content="Tata Education 塔塔教育">
+	<meta name="keywords"
+		content="education consulting, overseas study, higher education, university application, 留学咨询, 海外教育, 升学顾问, 高等教育">
+
+	<meta property="og:title" content="Tata | 塔塔教育咨询">
+	<meta property="og:description" content="Professional overseas education consulting services | 专业留学咨询服务">
+	<meta property="og:type" content="website">
 
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +35,47 @@
 	.words-transparent {
 		background-color: rgba(20, 68, 81, 0.755);
 	}
+
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+	}
+
+	body {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+
+
+
+	.site-footer {
+		flex-shrink: 0;
+		width: 100%;
+		position: relative;
+		bottom: 0;
+	}
+
+	.disclaimer {
+		font-size: 11px;
+		color: rgba(255, 255, 255, 0.7);
+		padding: 10px 0;
+		text-align: center;
+		line-height: 1.4;
+		background: rgba(20, 68, 81, 0.9);
+		border-top: 0.5px solid #eee;
+	}
+
+	.disclaimer p {
+		margin: 0;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
 </style>
+
+
 
 <body>
 	<div class="reveal">
@@ -204,11 +251,18 @@
 				<a href="https://work.weixin.qq.com/kfid/kfc631235d4216462e0">
 					<img class="r-frame" width="178" height="238" data-src="static/wechat_qrcode.png">
 				</a>
-				<p></p>
+
 			</section>
 		</div>
 	</div>
 
+	<footer>
+		<div class="disclaimer">
+			<p>Disclaimer: Tata Education Limited provides educational advisory services only. We are not an educational
+				institution.</p>
+			<p>免责声明：塔塔教育仅提供教育咨询服务，并非教育机构。</p>
+		</div>
+	</footer>
 	<script src="dist/reveal.js"></script>
 	<script src="plugin/notes/notes.js"></script>
 	<script src="plugin/markdown/markdown.js"></script>
